@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belleza';
+    
+}
+body {
+    min-height: 100hv;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.slideCont{
+    max-width: 83.9vw;
+    width: 100%;
+    
+    padding: 40px 0;
+
+}
+.slideContent{
+    margin: 0 10px ;
+}
+.card{
+    width: 21.51vw;
+    height: 420px;
+    border-radius: 25px;
+    background-color: white;
+
+}
+.imageContent,
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.imageContent{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(244, 220, 193, 1);
+    border-radius: 25px 25px 0 25px;
+
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background: rgba(244, 220, 193, 1);
+    
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: white;
+}
+.cardImage{
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
+}
+.cardImage .cardImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.edad{
+    color:rgba(207, 132, 51, 1);
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+.description{
+font-family: 'Belleza';
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.button2{
+    border: none;
+    font-size: 16px;
+    color:white;
+    padding: 8px 16px;
+    background-color: blue;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.button2:hover{
+    background: lightseagreen;
+}
+/* Media query for tablets */
+@media (max-width: 768px){
+   body {
+    min-height: 100hv;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.slideCont{
+    max-width: 83.9vw;
+    width: 100%;
+    padding: 40px 0;
+
+}
+.slideContent{
+    margin: 0 10px ;
+}
+.card{
+    width: 30.51vw;
+    height: 490px;
+    border-radius: 25px;
+    background-color: white;
+
+}
+.imageContent,
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.imageContent{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(244, 220, 193, 1);
+    border-radius: 25px 25px 0 25px;
+
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 10px;
+    background: rgba(244, 220, 193, 1);
+    
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: white;
+}
+.cardImage{
+    position: relative;
+    height: auto;
+    height: auto;
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
+}
+.cardImage .cardImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    font-family: 'Libre Baskerville';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.edad{
+    color:rgba(207, 132, 51, 1);
+    font-family: 'Libre Baskerville';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+.description{
+font-family: 'Belleza';
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+}
+
+@media (max-width: 480px){
+    .body {
+    height: 500px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.slideCont{
+    max-width: 83.9vw;
+    width: 100%;
+    height: 420px;
+    padding: 0px 0;
+
+}
+.slideContent{
+    margin: 0 3% ;
+}
+.card{
+    width: 31vw;
+    height: 380px;
+    border-radius: 25px;
+    background-color: white;
+
+}
+.imageContent,
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    
+}
+.imageContent{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(244, 220, 193, 1);
+    border-radius: 25px 25px 0 25px;
+
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 10px;
+    background: rgba(244, 220, 193, 1);
+    
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: white;
+}
+.cardImage{
+    position: relative;
+    width: 48px;
+    height: auto;
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
+}
+.cardImage .cardImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.cardContent{
+    text-overflow: ellipsis;
+    
+}
+.name{
+    font-family: 'Libre Baskerville';
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 8px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space:normal;
+    width: 100%;
+    height: 100%;
+}
+.edad{
+    color:rgba(207, 132, 51, 1);
+    font-family: 'Libre Baskerville';
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align:justify;
+    margin: 0;
+}
+.description{
+    font-family: 'Belleza';
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+}

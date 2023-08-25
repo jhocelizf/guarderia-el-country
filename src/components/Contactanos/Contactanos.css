@@ -1,0 +1,529 @@
+.bg {
+    background-color: #90C2E9;
+    width: 100%;
+}
+.containerContacto{
+    width: 84.375vw;
+    height: 100%;
+    margin-left: 150px;
+    background-image: url(../../assets/images/Paws\ -\ up.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Baskerville';
+    text-decoration: none;
+}
+
+.cTitulo{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 4.375vw;
+    margin-bottom: 2.6vw;
+}
+.imgAzul{
+    width: 5.2vw;
+    height: 5.2vw;
+}
+
+.rs{
+    background-color: #fef2e6 ;
+    width: 44.17vw;
+    height: 34.864vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.rs h2{
+    margin-top: 3.12vw;
+    margin-bottom: 1.04vw;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.escribinos{
+    width: 18.75vw;
+    height: 6.875vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.08vw;
+}
+
+.wsp{
+    margin-right: 1.562vw;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+.wsp h3{
+    font-size: 24px;
+    margin-top: 1.04vw;
+}
+
+.gmail{
+    margin-left: 0.78vw;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+.gmail h3{
+    font-size: 24px;
+    margin-top: 1.04vw;
+}
+
+.redesSociales{
+    width: 27.30vw;
+    height: 6.875vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    
+}
+
+.rSociales{
+    width: fit-content;
+    height: 6.875vw;
+    margin-left: 2.08vw;
+    margin-right: 2.08vw;
+    margin-bottom: 1.04vw;
+    margin-top: 2.08vw;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+}
+
+.rSociales h3{
+    font-size: 24px;
+    margin-top: 1.04vw;
+    color: black;
+}
+
+.ubicacion{
+    width: 44.167vw;
+    height: 631px;
+    margin-top: 5.20vw;
+    margin-bottom: 5.20vw;
+    background-color: #fef2e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.ubicacion h2{
+    font-size: 36px;
+    margin-top: 2.08vw;
+}
+
+.ubicacion h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .bg {
+        background-color: #90C2E9;
+    }
+    .containerContacto{
+        width: 100vw;
+        height: 100%;
+        margin: 0px;
+        background-image: url(../../assets/images/Paws\ -\ up.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cTitulo{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align:start;
+        margin-top: 6.25vw;
+        margin-bottom: 7.3vw;
+    }
+    .imgAzul{
+        width: 6.25vw;
+        height: 6.25vw;
+    }
+    
+    .rs{
+        background-color: white ;
+        width: 95.83vw;
+        height: 45.83vw;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 10%;
+        margin: 0px;
+        gap: 16px;
+        
+    }
+    .colRs{
+        background-color:  #fef2e6;
+        width: 46.875vw;
+        height: 45.83vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rs h2{
+        margin-top: 5.99vw;
+        margin-bottom: 5.86vw;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 3.90vw;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .rs h3 {
+ 
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: right;
+
+    }
+    .escribinos{
+        width: 46.875vw;
+        height: 21.4843vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .wsp{
+        margin: 0px;
+        display: flex;
+        align-items:  center;
+        flex-direction: row;
+    }
+    
+    .wsp h3{
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin-top: 1.627vw;
+        margin-left: 2.08vw;
+    }
+    
+    .gmail{
+        margin: 0px;
+        margin-top: 3.125vw;
+        margin-right: 5.73vw;
+        display: flex;
+        flex: start;
+        flex-direction: row;
+    }
+    
+    .gmail h3{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin-top: 1.627vw;
+        margin-left: 2.08vw;
+    }
+    
+    .redesSociales{
+        width: 46.875vw;
+        height: 19.53125vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .rSociales{
+        width: 20.57vw;
+        height: 6.25vw;
+        margin: 3.125vw 13.51vw 0px ;
+        align-items:  center;
+        flex-direction: row;
+    }
+    
+    .rSociales h3{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin-top: 1.62vw;
+        margin-left: 2.08vw;
+        margin-top: 1.9531vw
+    }
+    
+    .ubicacion{
+        width: 96.22vw;
+        height: 58.20vw;
+        margin-top: 12.63vw;
+        margin-bottom: 6.25vw;
+        background-color:white;
+        display: grid;
+        align-items: center;
+        grid-template-rows: 1fr 1fr;
+        border-radius: 10%;
+    }
+    
+    .ubicacion h2{
+     
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: start;
+        margin-top: 3.90vw;
+    }
+    .ubiTab{
+        display: flex;
+        flex-direction: row;
+    }
+    .MAP {
+        width: 71.3541vw;
+        height: 47.92vw;
+    }
+    .ubicacion h3{
+        margin-top: 39.97vw;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.10000000149011612px;
+        text-align: start;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .bg {
+        background-color: #90C2E9;
+        width: 100vw;
+    }
+    .containerContacto{
+        width: 100vw;
+        height: 100%;
+        margin: 0px;
+        background-image: url(../../assets/images/Paws\ -\ up.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cTitulo{
+       
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+    .imgAzul{
+        width: 48px;
+        height: 48px;
+    }
+    
+    .rs{
+        background-color:  #fef2e6;
+        width: 91vw;
+        height: 560px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10%;
+        margin: 0px;
+        gap: 0px;
+        
+    }
+    .colRs{
+        
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+    }
+    .rs h2{
+        margin-top: 32px;
+        margin-bottom: 24px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22.4px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .rs h3 {
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: right;
+
+    }
+    .escribinos{
+        width: 69.16vw;
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    .wsp{
+        margin: 0px;
+        display: flex;
+        align-items:  center;
+        flex-direction: row;
+    }
+    
+    .wsp h3{
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin-top: 12.5px;
+        margin-left: 16px;
+    }
+    
+    .gmail{
+        margin: 0px;
+        margin-top: 32px;
+        margin-right: 30px;
+        display: flex;
+        flex: start;
+        flex-direction: row;
+    }
+    
+    .gmail h3{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin-top: 12.5px;
+        margin-left: 16px;
+    }
+    
+    .redesSociales{
+        width: 69.16vw;
+        height: 236px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        
+    }
+    
+    .rSociales{
+        width: fit-content;
+        height: fit-content;
+        margin: 24px auto 0px auto;
+        margin-top: 24px;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+    }
+    
+    .rSociales h3{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin-top: 12.5px;
+        margin-left: 16px;
+        margin-top: 15px
+    }
+    
+    .ubicacion{
+        width: 91.04vw;
+        height: 437px;
+        margin-top: 27px;
+        margin-bottom: 28px;
+        background-color:white;
+        display: grid;
+        align-items: center;
+        grid-template-rows: 1fr 1fr;
+        border-radius: 10%;
+    }
+    
+    .ubicacion h2{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .ubiTab{
+        display: flex;
+        flex-direction: column;
+    }
+    .MAP {
+        width: 91.0416vw;
+        height: 298.5px;
+    }
+    .ubicacion h3{
+        margin-top: 16px;
+        margin-left: 20px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+}

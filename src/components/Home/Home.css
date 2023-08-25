@@ -1,0 +1,478 @@
+.bgh {
+    background: rgba(144, 194, 233, 1);
+    width: 100vw;
+}
+.mainContainer{
+    width: 84.375vw;
+    height: 1391px;
+    margin-left: 7.8125vw;
+    background-image: url(../../assets/images/Paws\ -\ up.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sec1container{
+    width: 84.375vw;
+    height: 100%;
+   
+    
+}
+.innerCont{
+    width: 75vw; 
+    height: 580px; 
+    margin-top: 91px;
+    margin-left: 7,8125vw;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: row;
+}
+.col1 {
+    width: 36.71875vw;
+    height: 580px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 100px;
+}
+.texto {
+    width: 29.7395833vw;
+    height: 50vh;
+}
+.pText {
+    max-width: 29.7395833vw;
+    max-height: 302px;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.1px;
+    font-size: 24px;
+    margin: 30px 50px 30px 30px;
+    text-align: justify;
+}
+.titulo {
+    max-width: 17.03125vw;
+    max-height: 302px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 56px;
+    font-weight:bold;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    white-space: nowrap;
+    text-align: center;
+}
+.contButton{
+    align-items: start;
+    margin-top: 60px;
+}
+
+.button {
+    width: 10.9895vw;
+    height: 58px;
+    background:#CF8433;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius:75px;
+    margin: 0 30%;
+}
+.button:hover {
+    background-color:#E5A763;
+    ;
+}
+
+.button:active{
+    background:#CF8433;
+    transform: scale(0.98);
+ /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+/* Lowering the shadow */
+}
+.col2 {
+    width: 42.34375vw;
+    height: 770px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.background {
+    width: 27.95833vw;
+    height: 55.95833vh;
+    /* background-color: #CF8433; */
+    background-image: radial-gradient(#CF8433, #E5A763 60%, black);
+    opacity:initial;
+    border-radius: 100%;
+    transform-origin: center;
+    transition: transform 0.5s; /* Agregamos una transición para animar el efecto */
+    box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+    -webkit-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+    -moz-box-shadow: -1px 12px 21px 3px rgba(0,0,0,0.36);
+}
+
+.imgPerro{
+
+    width: 37.083vw;
+    height: auto;
+    object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
+    position: absolute;
+    top: 44%; 
+    left: 57%; 
+    transform: translate(-50%, -50%); /*Centramos la imagen en el contenedor */
+    transition: transform 0.5s ease;
+
+}
+
+.col2:hover .background {
+    transform: scale(1.2) translateY(-40px);;/* Escalamos el fondo en un 20% al hacer hover */
+}
+
+.sec2Cont {
+    width: 84.375vw;
+    height: 41px;
+    background-color:transparent;
+    
+}
+
+.testCards{
+    width: 69.53125vw;
+    height: 380px;
+    margin-top: 0;
+    margin-left: 90px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .bgh {
+        background-image: url(../../assets/images/Paws\ -\ up.jpg);
+        width: 100vw;
+        height: 1340px;
+    }
+    .mainContainer{
+        width: 100vw;
+        height: 100%;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+    
+    .sec1Cont{
+        width: 100vw !important;
+        height: 100%;
+        margin: 0px;
+        margin-top: 30px;
+    }
+    .innerCont{
+        width: 100vw; 
+        height: 100%; 
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .col1 {
+        width: 100vw;
+        height: 380px;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto {
+        width: 100%;
+        height: 341px;
+        margin: 30px 0px 20px;
+        align-items: center;
+    }
+    .pText {
+        max-width: 100%;
+        max-height: 341px;
+        font-family: 'Libre Baskerville';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0px;
+        letter-spacing: 0.1px;
+        margin: 20px 20px;
+    }
+    .titulo {
+        max-width: 100%;
+        max-height: 32px;
+        margin: 0px 26px 30px;
+        font-family: 'Libre Baskerville';
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        white-space: nowrap;
+        
+    }
+    .contButton{
+        width:40%;
+        margin: 30px 20%;
+        
+    }
+  
+    .button {
+        width: 100%;
+        height: 44px;
+        background:#CF8433;
+        border: none;
+        color: white;
+        text-align: center;
+        font-family: Libre Baskerville;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        border-radius:75px;
+        align-items: center;
+    }
+    .button:hover {
+        background-color:#E5A763;
+        ;
+    }
+    .button:active{
+        background:#CF8433;
+        transform: scale(0.98);
+     /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+    }
+    .col2 {
+        width: 78.125vw;
+        height: 100%;
+        margin: 0px;
+        margin-top:0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        
+
+    }
+    .imgGroup{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .background {
+        width: 43.109375vw;
+        height: 43.109375vw;
+        margin: 0px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    
+    .imgPerro{
+        width: 60vw;
+        height: 55vw;
+        margin: 0px;
+        margin-top: 10px;
+        position: absolute;
+        align-items: center;
+    
+    }
+    
+    .col2:hover .background {
+        pointer-events: none;
+    }
+    .sec2Cont {
+        width: 100vw;
+        height: 60%;
+        background-color: white;
+    }
+    
+    .testCards{
+        width: 100vw;
+        height: 40%;
+        margin: 0px;
+        
+        
+    }
+}
+
+@media (max-width: 480px){
+    .bgh {
+        background-image: url(../../assets/images/Paws\ -\ up.jpg);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+    
+    .mainContainer{
+        width: 100%;
+        height: 100%;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .sec1Cont{
+        width: 100%;
+        height: 100%;
+        margin-top: 33px;
+        margin-left: 0px;
+        gap: 12px;
+        align-items: center;
+    }
+    .innerCont{
+        width: 100vw; 
+        height: 100%; 
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .col1 {
+        width: 100vw;
+        height: 100%;
+        grid-gap: 16px;
+    }
+    .texto {
+        width: 100vw;
+        height: 100%;
+        margin: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pText {
+        max-width: 100%;
+        max-height: 100%;
+        font-family: 'Libre Baskerville';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0px;
+        margin: 20px 16px;
+    }
+    .titulo {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 20px;
+        font-family: 'Libre Baskerville';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 22.4px;
+        letter-spacing: 0em;
+        text-align: center;
+        white-space: nowrap;
+        
+    }
+    .contButton{
+        width: 100vw;
+        align-items: flex-start;
+        margin: 0px 0px 0px;
+        
+    }
+    .button {
+        margin: 0;
+        width: 100%;
+        height: 32px;
+        background:#CF8433;
+        border: none;
+        color: white;
+        text-align: center;
+        font-family: 'Libre Baskerville';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.5px;
+        letter-spacing: 0em;
+        border-radius:75px;
+        align-items: flex-start;
+    }
+    .button:hover {
+        background-color:#E5A763;
+        ;
+    }
+    .button:active{
+        background:#CF8433;
+        transform: scale(0.98);
+     /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+    }
+    .col2 {
+        width: 80vw;
+        height: 35vh;
+        margin: 0px;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 0px;
+
+    }
+    .imgGroup{
+        display: flex;
+        
+    }
+    .background {
+        width: 46.842vw;
+        height: 46.842vw;
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 53px;
+    }
+    
+    .imgPerro{
+        width: 60vw;
+        height: 55vw;
+        margin: 0px;
+        margin-top: 0px;
+        object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra el contenedor */
+        position: absolute;
+        align-items: center;
+    
+    }
+    
+    .col2:hover .background {
+        pointer-events: none;
+    }
+    .sec2Cont {
+        width: 100%;
+        height: 500px;
+        background-color: white;
+       margin: 0;
+       margin-top: 30px;
+       margin-bottom: 0px;
+    }
+    
+    .testCards{
+        width: 100%;
+        height: 420px;
+        margin: 0px;
+        margin-bottom: 0px;  
+    }
+}
